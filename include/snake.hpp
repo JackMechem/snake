@@ -28,7 +28,6 @@ class Snake : public Game {
 
 	char snakeChar = '+';
 	Direction snakeDirection;
-	int snakeLength = 0;
 	std::vector<std::vector<int>> snakeCords;
 	std::vector<int> fruitCord;
 

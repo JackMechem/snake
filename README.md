@@ -1,26 +1,31 @@
 # Snake
 
-###### Dependencies
+## Support
+
+- Linux
+- MacOS
+
+## Dependencies
 
 - ncurses
 - meson
 
 ## Installation / Usage
 
+### Clone
+
 ```bash
-# Clone
-git clone https://github.com/JackMechem/snake.git
+git clone https://github.com/JackMechem/snake.git && cd snake
+```
 
-cd snake
+### Setup meson
 
-# Setup meson
-meson setup build
+```bash
+meson setup build --prefix /usr
+```
 
-cd build
+### Install
 
-# Compile
-meson compile
-
-# Run
-./snake
+```bash
+meson install -C build
 ```
